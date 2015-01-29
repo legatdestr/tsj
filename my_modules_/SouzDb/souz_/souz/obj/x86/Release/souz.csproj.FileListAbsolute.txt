@@ -1,0 +1,16 @@
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\obj\x86\Release\souz.Properties.Resources.resources
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\obj\x86\Release\souz.csproj.GenerateResource.Cache
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\bin\Release\debtorSearcher.exe.config
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\bin\Release\archive.mdb
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\bin\Release\debtorSearcher.exe.manifest
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\bin\Release\debtorSearcher.application
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\bin\Release\debtorSearcher.exe
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\bin\Release\debtorSearcher.pdb
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\obj\x86\Release\souz.AboutBox1.resources
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\obj\x86\Release\souz.FArchiveManager.resources
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\obj\x86\Release\souz.FMain.resources
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\obj\x86\Release\souz.FSettings.resources
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\obj\x86\Release\debtorSearcher.exe.manifest
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\obj\x86\Release\debtorSearcher.application
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\obj\x86\Release\debtorSearcher.exe
+D:\Work\SZ\My_Programs\my_modules\SouzDb\souz\souz\obj\x86\Release\debtorSearcher.pdb

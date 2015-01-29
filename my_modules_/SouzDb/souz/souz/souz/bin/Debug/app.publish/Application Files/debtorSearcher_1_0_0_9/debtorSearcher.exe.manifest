@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="debtorSearcher.exe" version="1.0.0.9" publicKeyToken="4249f4c0b620d48e" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="1375015710_43328.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="debtorSearcher" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="debtorSearcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          При необходимости изменить уровень управления учетными записями Windows замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если вы хотите использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+ -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="debtorSearcher.exe" size="172032">
+      <assemblyIdentity name="debtorSearcher" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>SWCYXYQxRiphZqihJsAoXQZJUQ8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Interop.Word.dll" size="781104">
+      <assemblyIdentity name="Microsoft.Office.Interop.Word" version="12.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>kD8iqLFBbkwA3zIezWbPn8IHKKE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1375015710_43328.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>+DGuEgBappmv/omkMNigRXHF5qI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="archive.mdb" size="589824" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>hqoe5+qAhGbiIsv/gCGMSeI5wQo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="debtorSearcher.exe.config" size="1796">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bTAV6EE25W8MyD/FWIlsDGBQ7/k=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=wsxw\qwerr" issuerKeyHash="ce56364d0212f0b5acddc721c37e71a0dcc3c881" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>K8h4vi7DFNY3G+O80JE7mJt/pqs=</DigestValue></Reference></SignedInfo><SignatureValue>FmprXSXH6U0Z2xKn58Vh/RKEiTuiaamKkuk62AfOFeH5KCDwYSb6zGlFaAPy8aTzdOIy69DyK1TJ4G/0A5wl0IdrsFXWwKuKOAZqa7OBesQhmFxyrHZ5qQ6zjCW8r9+sCGrZZ0cevXvYtlcJN7PETC5a6gg7yxDKxvWhzIfFNlM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uL/s30eEOEdyPKhC3wjyLuAgj6YETVrw+gkaviCmTOHFrkQW6ss7PuUTlIeECKZaPvS4Iyo3BXOef0Ysjw0FJGqD2eaW1yRbkdgk51QS+2hy6ShM37j+r0+OkdhHIswD7b4BMMnpxz6JtQhlYOPypJ81F2saDA10UAmjV9XWdSk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aba67f9b983b91d0bce31b37d614c32ebe78c82b" Description="" Url=""><as:assemblyIdentity name="debtorSearcher.exe" version="1.0.0.9" publicKeyToken="4249f4c0b620d48e" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=wsxw\qwerr</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>XbtdoP5bd3PVXMral8Xy8/rz5aM=</DigestValue></Reference></SignedInfo><SignatureValue>e9OF/T0Q8VvGpr2sXoi2n7nyssnPQ7e6082Ai9PdGoMlBOE/JKy1W3UL0JrBT0z/FuC7nro1odKQUwjPtVxhXJSjpfj0jTsmdflb1V8oGeqJogXeKoMQ/dP6zpzn/PCHfxRkZXoGDY1IAryES0JamT2JOfGwZTJAx2bzSXAakLg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uL/s30eEOEdyPKhC3wjyLuAgj6YETVrw+gkaviCmTOHFrkQW6ss7PuUTlIeECKZaPvS4Iyo3BXOef0Ysjw0FJGqD2eaW1yRbkdgk51QS+2hy6ShM37j+r0+OkdhHIswD7b4BMMnpxz6JtQhlYOPypJ81F2saDA10UAmjV9XWdSk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQTAWNgq0GXKhIZZk3KiYtoTANBgkqhkiG9w0BAQUFADAfMR0wGwYDVQQDHhQAdwBzAHgAdwBcAHEAdwBlAHIAcjAeFw0xMzA5MDkyMTM5NTZaFw0xNDA5MTAwMzM5NTZaMB8xHTAbBgNVBAMeFAB3AHMAeAB3AFwAcQB3AGUAcgByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4v+zfR4Q4R3I8qELfCPIu4CCPpgRNWvD6CRq+IKZM4cWuRBbqyzs+5ROUh4QIplo+9LgjKjcFc55/RiyPDQUkaoPZ5pbXJFuR2CTnVBL7aHLpKEzfuP6vT46R2EcizAPtvgEwyenHPom1CGVg4/KknzUXaxoMDXRQCaNX1dZ1KQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAB+F/b0v0vw6y8HGwebnRU2cNNzyxYbewIXgpLNT0I5OW2OV2ORIL2CvDQutd0Tic9gkjOsnymUEb3I7oxYl073V0KCNBa9frg/RVYMo6rttK+zenVf7i9ePpDP4Ffp5i2XFuSaFqIxLOFz0DgQG9vZIKwl7il0s8xt6UqFt8fHN</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

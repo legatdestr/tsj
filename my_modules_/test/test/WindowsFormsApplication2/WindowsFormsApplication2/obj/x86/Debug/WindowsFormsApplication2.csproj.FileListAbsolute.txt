@@ -1,0 +1,12 @@
+D:\Work\SZ\My_Programs\my_modules\test\test\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\archive.mdb
+D:\Work\SZ\My_Programs\my_modules\test\test\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+D:\Work\SZ\My_Programs\my_modules\test\test\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+D:\Work\SZ\My_Programs\my_modules\test\test\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+D:\Work\SZ\My_Programs\my_modules\test\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+D:\Work\SZ\My_Programs\my_modules\test\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Form1.resources
+D:\Work\SZ\My_Programs\my_modules\test\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+D:\Work\SZ\My_Programs\my_modules\test\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+D:\Work\SZ\My_Programs\my_modules\test\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\RdlCompile.cache
+D:\Work\SZ\My_Programs\my_modules\test\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\RdlCompile.compiled
+D:\Work\SZ\My_Programs\my_modules\test\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+D:\Work\SZ\My_Programs\my_modules\test\test\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb

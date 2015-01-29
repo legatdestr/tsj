@@ -1,0 +1,4 @@
+D:\Work\SZ\My_Programs\my_modules\test\test\CrystalReportsApplication1\CrystalReportsApplication1\bin\Debug\CrystalReportsApplication1.exe
+D:\Work\SZ\My_Programs\my_modules\test\test\CrystalReportsApplication1\CrystalReportsApplication1\bin\Debug\CrystalReportsApplication1.pdb
+D:\Work\SZ\My_Programs\my_modules\test\test\CrystalReportsApplication1\CrystalReportsApplication1\obj\x86\Debug\CrystalReportsApplication1.exe
+D:\Work\SZ\My_Programs\my_modules\test\test\CrystalReportsApplication1\CrystalReportsApplication1\obj\x86\Debug\CrystalReportsApplication1.pdb

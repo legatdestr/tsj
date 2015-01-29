@@ -1,0 +1,10 @@
+D:\Work\SZ\My_Programs\my_modules\test\test\test\bin\Debug\archive.mdb
+D:\Work\SZ\My_Programs\my_modules\test\test\test\bin\Debug\test.exe.config
+D:\Work\SZ\My_Programs\my_modules\test\test\test\bin\Debug\test.exe
+D:\Work\SZ\My_Programs\my_modules\test\test\test\bin\Debug\test.pdb
+D:\Work\SZ\My_Programs\my_modules\test\test\test\obj\x86\Debug\test.Form1.resources
+D:\Work\SZ\My_Programs\my_modules\test\test\test\obj\x86\Debug\test.importDb.resources
+D:\Work\SZ\My_Programs\my_modules\test\test\test\obj\x86\Debug\test.Properties.Resources.resources
+D:\Work\SZ\My_Programs\my_modules\test\test\test\obj\x86\Debug\test.csproj.GenerateResource.Cache
+D:\Work\SZ\My_Programs\my_modules\test\test\test\obj\x86\Debug\test.exe
+D:\Work\SZ\My_Programs\my_modules\test\test\test\obj\x86\Debug\test.pdb
