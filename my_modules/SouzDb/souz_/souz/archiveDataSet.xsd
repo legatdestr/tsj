@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="archiveDataSet" targetNamespace="http://tempuri.org/archiveDataSet.xsd" xmlns:mstns="http://tempuri.org/archiveDataSet.xsd" xmlns="http://tempuri.org/archiveDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="archiveConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="archiveConnectionString (Settings)" PropertyReference="ApplicationSettings.souz.Properties.Settings.GlobalReference.Default.archiveConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="selLSTableAdapter" GeneratorDataComponentClassName="selLSTableAdapter" Name="selLS" UserDataComponentName="selLSTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="archiveConnectionString (Settings)" DbObjectName="selLS" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT FIO, DOM, DOML, DOMP, KV, KVL, LS, NZEU, UL, TIP, spUL_NAIM, spZEU_NAIM, PEN_S1, ITGNW, Expr1014, COMMENT, INS_DATE, DOLG_POSLE_OPLATY, OPLATA_DO, SAL1W, SAL2W FROM selLS</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="FIO" DataSetColumn="FIO" />
+              <Mapping SourceColumn="DOM" DataSetColumn="DOM" />
+              <Mapping SourceColumn="DOML" DataSetColumn="DOML" />
+              <Mapping SourceColumn="DOMP" DataSetColumn="DOMP" />
+              <Mapping SourceColumn="KV" DataSetColumn="KV" />
+              <Mapping SourceColumn="KVL" DataSetColumn="KVL" />
+              <Mapping SourceColumn="LS" DataSetColumn="LS" />
+              <Mapping SourceColumn="NZEU" DataSetColumn="NZEU" />
+              <Mapping SourceColumn="UL" DataSetColumn="UL" />
+              <Mapping SourceColumn="TIP" DataSetColumn="TIP" />
+              <Mapping SourceColumn="spUL_NAIM" DataSetColumn="spUL_NAIM" />
+              <Mapping SourceColumn="spZEU_NAIM" DataSetColumn="spZEU_NAIM" />
+              <Mapping SourceColumn="PEN_S1" DataSetColumn="PEN_S1" />
+              <Mapping SourceColumn="ITGNW" DataSetColumn="ITGNW" />
+              <Mapping SourceColumn="Expr1014" DataSetColumn="Expr1014" />
+              <Mapping SourceColumn="COMMENT" DataSetColumn="COMMENT" />
+              <Mapping SourceColumn="INS_DATE" DataSetColumn="INS_DATE" />
+              <Mapping SourceColumn="DOLG_POSLE_OPLATY" DataSetColumn="DOLG_POSLE_OPLATY" />
+              <Mapping SourceColumn="OPLATA_DO" DataSetColumn="OPLATA_DO" />
+              <Mapping SourceColumn="SAL1W" DataSetColumn="SAL1W" />
+              <Mapping SourceColumn="SAL2W" DataSetColumn="SAL2W" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="archiveDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="archiveDataSet" msprop:Generator_UserDSName="archiveDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="selLS" msprop:Generator_TableClassName="selLSDataTable" msprop:Generator_TableVarName="tableselLS" msprop:Generator_TablePropName="selLS" msprop:Generator_RowDeletingName="selLSRowDeleting" msprop:Generator_RowChangingName="selLSRowChanging" msprop:Generator_RowEvHandlerName="selLSRowChangeEventHandler" msprop:Generator_RowDeletedName="selLSRowDeleted" msprop:Generator_UserTableName="selLS" msprop:Generator_RowChangedName="selLSRowChanged" msprop:Generator_RowEvArgName="selLSRowChangeEvent" msprop:Generator_RowClassName="selLSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FIO" msprop:Generator_ColumnVarNameInTable="columnFIO" msprop:Generator_ColumnPropNameInRow="FIO" msprop:Generator_ColumnPropNameInTable="FIOColumn" msprop:Generator_UserColumnName="FIO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOM" msprop:Generator_ColumnVarNameInTable="columnDOM" msprop:Generator_ColumnPropNameInRow="DOM" msprop:Generator_ColumnPropNameInTable="DOMColumn" msprop:Generator_UserColumnName="DOM" type="xs:short" minOccurs="0" />
+              <xs:element name="DOML" msprop:Generator_ColumnVarNameInTable="columnDOML" msprop:Generator_ColumnPropNameInRow="DOML" msprop:Generator_ColumnPropNameInTable="DOMLColumn" msprop:Generator_UserColumnName="DOML" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOMP" msprop:Generator_ColumnVarNameInTable="columnDOMP" msprop:Generator_ColumnPropNameInRow="DOMP" msprop:Generator_ColumnPropNameInTable="DOMPColumn" msprop:Generator_UserColumnName="DOMP" type="xs:short" minOccurs="0" />
+              <xs:element name="KV" msprop:Generator_ColumnVarNameInTable="columnKV" msprop:Generator_ColumnPropNameInRow="KV" msprop:Generator_ColumnPropNameInTable="KVColumn" msprop:Generator_UserColumnName="KV" type="xs:int" minOccurs="0" />
+              <xs:element name="KVL" msprop:Generator_ColumnVarNameInTable="columnKVL" msprop:Generator_ColumnPropNameInRow="KVL" msprop:Generator_ColumnPropNameInTable="KVLColumn" msprop:Generator_UserColumnName="KVL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LS" msprop:Generator_ColumnVarNameInTable="columnLS" msprop:Generator_ColumnPropNameInRow="LS" msprop:Generator_ColumnPropNameInTable="LSColumn" msprop:Generator_UserColumnName="LS" type="xs:int" minOccurs="0" />
+              <xs:element name="NZEU" msprop:Generator_ColumnVarNameInTable="columnNZEU" msprop:Generator_ColumnPropNameInRow="NZEU" msprop:Generator_ColumnPropNameInTable="NZEUColumn" msprop:Generator_UserColumnName="NZEU" type="xs:short" minOccurs="0" />
+              <xs:element name="UL" msprop:Generator_ColumnVarNameInTable="columnUL" msprop:Generator_ColumnPropNameInRow="UL" msprop:Generator_ColumnPropNameInTable="ULColumn" msprop:Generator_UserColumnName="UL" type="xs:int" minOccurs="0" />
+              <xs:element name="TIP" msprop:Generator_ColumnVarNameInTable="columnTIP" msprop:Generator_ColumnPropNameInRow="TIP" msprop:Generator_ColumnPropNameInTable="TIPColumn" msprop:Generator_UserColumnName="TIP" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="spUL_NAIM" msprop:Generator_ColumnVarNameInTable="columnspUL_NAIM" msprop:Generator_ColumnPropNameInRow="spUL_NAIM" msprop:Generator_ColumnPropNameInTable="spUL_NAIMColumn" msprop:Generator_UserColumnName="spUL_NAIM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="spZEU_NAIM" msprop:Generator_ColumnVarNameInTable="columnspZEU_NAIM" msprop:Generator_ColumnPropNameInRow="spZEU_NAIM" msprop:Generator_ColumnPropNameInTable="spZEU_NAIMColumn" msprop:Generator_UserColumnName="spZEU_NAIM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PEN_S1" msprop:Generator_ColumnVarNameInTable="columnPEN_S1" msprop:Generator_ColumnPropNameInRow="PEN_S1" msprop:Generator_ColumnPropNameInTable="PEN_S1Column" msprop:Generator_UserColumnName="PEN_S1" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ITGNW" msprop:Generator_ColumnVarNameInTable="columnITGNW" msprop:Generator_ColumnPropNameInRow="ITGNW" msprop:Generator_ColumnPropNameInTable="ITGNWColumn" msprop:Generator_UserColumnName="ITGNW" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Expr1014" msprop:Generator_ColumnVarNameInTable="columnExpr1014" msprop:Generator_ColumnPropNameInRow="Expr1014" msprop:Generator_ColumnPropNameInTable="Expr1014Column" msprop:Generator_UserColumnName="Expr1014" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="COMMENT" msprop:Generator_ColumnVarNameInTable="columnCOMMENT" msprop:Generator_ColumnPropNameInRow="COMMENT" msprop:Generator_ColumnPropNameInTable="COMMENTColumn" msprop:Generator_UserColumnName="COMMENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="536870910" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INS_DATE" msprop:Generator_ColumnVarNameInTable="columnINS_DATE" msprop:Generator_ColumnPropNameInRow="INS_DATE" msprop:Generator_ColumnPropNameInTable="INS_DATEColumn" msprop:Generator_UserColumnName="INS_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DOLG_POSLE_OPLATY" msprop:Generator_ColumnVarNameInTable="columnDOLG_POSLE_OPLATY" msprop:Generator_ColumnPropNameInRow="DOLG_POSLE_OPLATY" msprop:Generator_ColumnPropNameInTable="DOLG_POSLE_OPLATYColumn" msprop:Generator_UserColumnName="DOLG_POSLE_OPLATY" type="xs:int" minOccurs="0" />
+              <xs:element name="OPLATA_DO" msprop:Generator_ColumnVarNameInTable="columnOPLATA_DO" msprop:Generator_ColumnPropNameInRow="OPLATA_DO" msprop:Generator_ColumnPropNameInTable="OPLATA_DOColumn" msprop:Generator_UserColumnName="OPLATA_DO" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SAL1W" msprop:Generator_ColumnVarNameInTable="columnSAL1W" msprop:Generator_ColumnPropNameInRow="SAL1W" msprop:Generator_ColumnPropNameInTable="SAL1WColumn" msprop:Generator_UserColumnName="SAL1W" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SAL2W" msprop:Generator_ColumnVarNameInTable="columnSAL2W" msprop:Generator_ColumnPropNameInRow="SAL2W" msprop:Generator_ColumnPropNameInTable="SAL2WColumn" msprop:Generator_UserColumnName="SAL2W" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
